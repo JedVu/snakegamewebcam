@@ -1,8 +1,9 @@
 # snakegamewebcam
 snake game interact with hands
 
-pip install posenet
+pip install library needed
 
-copy replace posenet folder here to ..\miniconda3\envs\<name of your environment>\Lib\site-packages\
+pip install posenet
+- then copy replace posenet folder here to ..\miniconda3\envs\<name of your environment>\Lib\site-packages\
 
 run main_v3
