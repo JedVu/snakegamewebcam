@@ -12,4 +12,5 @@ edit link to predict model
 run main_v3.py
 
 
+extracted posenet model (in case you can not download posenet to your PC)
 https://drive.google.com/file/d/1nXaHY2I0ydlN7NMMGt1x90grqnVcEBQi/view?usp=sharing
