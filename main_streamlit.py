@@ -7,8 +7,6 @@ st.set_page_config(
 menu = ['Introduce','Behind the scenes','Live demo','Contact me']
 choice = st.sidebar.selectbox('What I can do?', menu)
 
-PATH = 'media\AB_NYC_2019.csv'
-
 if choice == 'Introduce':
     # title = st.title("Navigate baby snake with body gesture")
     st.markdown("<h1 style='text-align: center; color: black;'>Navigate baby snake with body gesture</h1>", unsafe_allow_html=True)
@@ -33,7 +31,7 @@ if choice == 'Introduce':
         st.write(" ")
         st.write(" ")
         st.write(" ")
-        st.image("media\mouse.png", use_column_width='always')
+        st.image("media/mouse.png", use_column_width='always')
         # st.image("media\_left.png", use_column_width='always')
 
     with col2:
