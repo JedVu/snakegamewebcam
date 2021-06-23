@@ -7,6 +7,7 @@ st.set_page_config(
 menu = ['Introduce','Behind the scenes','Live demo','Contact me']
 choice = st.sidebar.selectbox('What I can do?', menu)
 
+
 if choice == 'Introduce':
     # title = st.title("Navigate baby snake with body gesture")
     st.markdown("<h1 style='text-align: center; color: black;'>Navigate baby snake with body gesture</h1>", unsafe_allow_html=True)
@@ -32,12 +33,12 @@ if choice == 'Introduce':
         st.write(" ")
         st.write(" ")
         st.image("media/mouse.png", use_column_width='always')
-        # st.image("media\_left.png", use_column_width='always')
+        # st.image("media/_left.png", use_column_width='always')
 
     with col2:
         st.markdown("<h3 style='text-align: center; color: black;'>I will tell you a story about ...me</h1>", unsafe_allow_html=True)
         # st.write("I will tell you a story about me...")
-        video_file = open(r'media\baby_snake_2.mp4', 'rb')
+        video_file = open(r'media/baby_snake_2.mp4', 'rb')
         video_bytes = video_file.read()
         st.video(video_bytes)
 
@@ -46,7 +47,7 @@ if choice == 'Introduce':
         # food = st.multiselect('what dog want to feed?', ['fish', 'cat', 'dog food'])
         # if food == ['fish']:
         #     st.write("do the lab to catch fish first")
-        st.image("media\snake_and_mouse.png", use_column_width='always')
+        st.image("media/snake_and_mouse.png", use_column_width='always')
     
 elif choice == 'Behind the scenes':
     st.markdown("<h1 style='text-align: center; color: black;'>How the snake game with body gesture made...</h1>", unsafe_allow_html=True)
@@ -58,27 +59,27 @@ elif choice == 'Behind the scenes':
 
     with col2:
         st.markdown("<h2 style='text-align: center; color: black;'>Process flow</h1>", unsafe_allow_html=True)
-        st.image(r"media\snake_game_flow.png", use_column_width='always')
+        st.image(r"media/snake_game_flow.png", use_column_width='always')
         st.markdown("<h2 style='text-align: center; color: black;'>Collect images from webcam and convert</h1>", unsafe_allow_html=True)
-        st.image(r"media\convert_image_to_model.gif", use_column_width='always')
-        st.image(r"media\right_left_down_pose.gif", use_column_width='always')
+        st.image(r"media/convert_image_to_model.gif", use_column_width='always')
+        st.image(r"media/right_left_down_pose.gif", use_column_width='always')
         st.markdown("<h2 style='text-align: center; color: black;'>Find some bad images which lost the skeleton pose</h1>", unsafe_allow_html=True)
         st.markdown("<div align = 'center'>Should check carefully because they affect on the accuracy of model directly</div>",unsafe_allow_html=True)
-        st.image(r"media\find_bug_manually.png", use_column_width='always')
+        st.image(r"media/find_bug_manually.png", use_column_width='always')
         st.markdown("<h2 style='text-align: center; color: black;'>Upload to Google Drive and use Colab Pro to train model</h1>", unsafe_allow_html=True)
         st.markdown("<div align = 'center'>Randomly choice images as guideline 8.5a_Real_ML_Project_with_Tensorflow_Keras.ipynb <br> and split them to Train_set, Validation_set and Test_set</div>",unsafe_allow_html=True)
-        st.image(r"media\data_for_colab_train_model.png", use_column_width='always')
+        st.image(r"media/data_for_colab_train_model.png", use_column_width='always')
         st.markdown("<div align = 'center'>Use Keras Tensorflow MobileNetv2 to train model for 4 classes</div>",unsafe_allow_html=True)
         st.markdown("<div align = 'center'>(Actually I used Xception first and the accuracy is better than MobileNetv2 but Xception is too heavy and maybe slow)</div>",unsafe_allow_html=True)
-        st.image(r"media\mobilenetv2.png", use_column_width='always')
+        st.image(r"media/mobilenetv2.png", use_column_width='always')
         st.markdown("<div align = 'center'>Evaluate model after training model</div>",unsafe_allow_html=True)
-        st.image(r"media\evaluate_model_after_train.png", use_column_width='always')
+        st.image(r"media/evaluate_model_after_train.png", use_column_width='always')
         st.markdown("<div align = 'center'>Visualization accuracy and loss</div>",unsafe_allow_html=True)
-        st.image(r"media\visualization_accuracy.png", use_column_width='always')
+        st.image(r"media/visualization_accuracy.png", use_column_width='always')
         st.markdown("<div align = 'center'>Visualization test with Test_set</div>",unsafe_allow_html=True)
-        st.image(r"media\test_test_set.png", use_column_width='always')
+        st.image(r"media/test_test_set.png", use_column_width='always')
         st.markdown("<div align = 'center'>SciKit Learn classification_report with full Test_set</div>",unsafe_allow_html=True)
-        st.image(r"media\classification_report.png", use_column_width='always')
+        st.image(r"media/classification_report.png", use_column_width='always')
         st.write("[Click to open my Colab file](https://colab.research.google.com/drive/1Xa4iggL5B9TAnaXB-oyhG2-kxx_SF18R?usp=sharing)")
 
         st.markdown("<h2 style='text-align: center; color: black;'>Put PoseNet, Trained Model with MobileNetv2 and Snake Game<br>together</h1>", unsafe_allow_html=True)
@@ -102,7 +103,7 @@ elif choice == 'Behind the scenes':
                         If the brightness of the body right side is better than the left, the skeleton pose will be easy to loss the body left side and make the wrong prediction.
                         </p>
                     </div>""",unsafe_allow_html=True)
-        st.image(r"media\right_lost_pose.png", use_column_width='always')
+        st.image(r"media/right_lost_pose.png", use_column_width='always')
 
         st.markdown("<h2 style='text-align: center; color: black;'>Future work</h1>", unsafe_allow_html=True)
         st.markdown("<div align = 'left'>I love to play games although I'm not too young. So I have not be satisfied my snake<br>I need to think how to improve my snake</div>",unsafe_allow_html=True)
