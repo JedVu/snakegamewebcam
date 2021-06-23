@@ -4,11 +4,11 @@ st.set_page_config(
     layout="wide"
 )
 
-menu = ['Introduce','Behind the scenes','Live demo','Contact me']
+menu = ['Introduction','Behind the scenes','Live demo','Contact me']
 choice = st.sidebar.selectbox('What I can do?', menu)
 
 
-if choice == 'Introduce':
+if choice == 'Introduction':
     # title = st.title("Navigate baby snake with body gesture")
     st.markdown("<h1 style='text-align: center; color: black;'>Navigate baby snake with body gesture</h1>", unsafe_allow_html=True)
     col1, col2, col3 = st.beta_columns((1, 3, 1))
