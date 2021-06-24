@@ -4,9 +4,12 @@ Demo product: https://share.streamlit.io/jedvu/snakegamewebcam/main/main_streaml
 
 ## Guildline to install this repo
 pip install library needed
+
 pip install posenet
 
 then copy replace posenet folder here to ..\miniconda3\envs\<name of your environment>\Lib\site-packages\
+
+(because I modified something in posenet original)
 
 extracted posenet model (in case you can not download posenet to your PC)
 Copy _model folder to your root app folder
