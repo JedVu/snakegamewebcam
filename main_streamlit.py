@@ -59,7 +59,7 @@ elif choice == 'Behind the scenes':
         st.image(r"media/CDS_logo.jpg", use_column_width='always')
         
     with col2:
-        st.markdown("<h2 style='text-align: center; color: black;'>Process flow</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 style='text-align: center; color: black;'>Progress flow</h2>", unsafe_allow_html=True)
         st.image(r"media/flow.png", use_column_width='always')
 
         st.markdown("<h2 style='text-align: center; color: black;'>Posenet</h2>", unsafe_allow_html=True)
