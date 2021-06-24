@@ -1,6 +1,7 @@
 # snakegamewebcam
 ## Snake game with Body gesture
-    Demo product: https://share.streamlit.io/jedvu/snakegamewebcam/main/main_streamlit.py
+    Detail product: https://share.streamlit.io/jedvu/snakegamewebcam/main/main_streamlit.py
+    Youtube: https://www.youtube.com/watch?v=PYaNoSkl5GE
 
 ## Guildline to install this repo
 1. pip install library needed
