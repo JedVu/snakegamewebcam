@@ -41,7 +41,7 @@ if choice == 'Introduction':
         video_file = open(r'media/baby_snake_2.mp4', 'rb')
         video_bytes = video_file.read()
         st.video(video_bytes)
-        st.markdown("<h3 style='text-align: right; color: black;'>I will tell you a story about ...me</h1>", unsafe_allow_html=True)
+        # st.markdown("<h3 style='text-align: right; color: black;'>I will tell you a story about ...me</h1>", unsafe_allow_html=True)
 
         
     with col3:
