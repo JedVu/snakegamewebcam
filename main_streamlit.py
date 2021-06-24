@@ -120,7 +120,7 @@ elif choice == 'Behind the scenes':
     with col11:
         st.image(r"media/snake_head.png", use_column_width='always')
     with col12:
-        st.markdown("<h2 style='text-align: center; color: black;'>Put PoseNet, Trained Model with MobileNetv2 and Snake Game<br>together</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 style='text-align: center; color: black;'>Put PoseNet, Trained Model with MobileNetv2 and Snake Game together</h2>", unsafe_allow_html=True)
         
         st.markdown("<div align = 'left'>Snake game, I learned how to create it from a course of Udemy</div>",unsafe_allow_html=True)
         st.markdown("<div align = 'left'>But... It's really hard to play if combine with body gesture</div>",unsafe_allow_html=True)
