@@ -86,28 +86,20 @@ elif choice == 'Behind the scenes':
         st.markdown("<h2 style='text-align: center; color: black;'>Upload to Google Drive and use Colab Pro to train model</h2>", unsafe_allow_html=True)
         st.markdown("<div align = 'center'>Randomly choice images as guideline 8.5a_Real_ML_Project_with_Tensorflow_Keras.ipynb <br> and split them to Train_set, Validation_set and Test_set</div>",unsafe_allow_html=True)
         st.image(r"media/data_for_colab_train_model.png", use_column_width='always')
-
-        st.write(" ")
-        st.write(" ")
-        st.write(" ")
-        st.write(" ")
-        st.write(" ")
-        st.write(" ")
-        st.write(" ")
-        st.write(" ")
-        st.write(" ")
-        st.write(" ")
-        st.write(" ")
-
-        st.markdown("<h3 style='text-align: center; color: black;'>Evaluate model after training model</h3>", unsafe_allow_html=True)
-        st.image(r"media/evaluate_model_after_train.png", use_column_width='always')
-
     with col7:
+        st.write(" ")
+        st.write(" ")
+
         st.markdown("<h3 style='text-align: center; color: black;'>Use MobileNetv2 to train model for 4 classes</h3>", unsafe_allow_html=True)
         st.markdown("<div align = 'center'>(Actually I used Xception first and the accuracy is better than MobileNetv2 but Xception is too heavy and maybe slow)</div>",unsafe_allow_html=True)
         st.image(r"media/mobilenetv2.png", use_column_width='always')
         st.write("[Example about MobileNetv2 work](https://www.youtube.com/watch?v=SibMvEVpqsk)")    
 
+    col14, col15 = st.beta_columns((1,1))
+    with col14:
+        st.markdown("<h3 style='text-align: center; color: black;'>Evaluate model after training model</h3>", unsafe_allow_html=True)
+        st.image(r"media/evaluate_model_after_train.png", use_column_width='always')
+    with col15:
         st.markdown("<h3 style='text-align: center; color: black;'>Visualization accuracy and loss</h3>", unsafe_allow_html=True)
         st.image(r"media/visualization_accuracy.png", use_column_width='always')
 
