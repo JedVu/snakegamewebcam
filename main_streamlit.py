@@ -131,7 +131,12 @@ elif choice == 'Behind the scenes':
         st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;2. Snake go through from this side to another side (no die if snake hit the border)</div>",unsafe_allow_html=True)
         st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;3. Snake can catch the mouse if snake head reach near to the mouse, no need to catch mouse with correct position</div>",unsafe_allow_html=True)
         st.write("[Click to open my snake on Github](https://github.com/JedVu/snakegamewebcam)")
+        st.image(r"media/L_R_U_D.png", use_column_width='always')
 
+        st.write(" ")
+        st.write(" ")
+        st.write(" ")
+        st.write(" ")
         st.markdown("<h2 style='text-align: center; color: black;'>Streamlit part to present my snake</h2>", unsafe_allow_html=True)
         st.markdown("<div align = 'center'>(Introduce & Live demo)</div>",unsafe_allow_html=True)
 
