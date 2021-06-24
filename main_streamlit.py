@@ -104,7 +104,7 @@ elif choice == 'Behind the scenes':
         
         st.markdown("<div align = 'left'>Snake game, I learned how to create it from a course of Udemy</div>",unsafe_allow_html=True)
         st.markdown("<div align = 'left'>But... It's really hard to play if combine with body gesture</div>",unsafe_allow_html=True)
-        st.markdown("<div align = 'left'>So... I had to re-design all play rules and layout also (slower speed, bigger snake and mouse)</div>",unsafe_allow_html=True)
+        st.markdown("<div align = 'left'>So... I had to re-design all play rules and layout also (slower speed, bigger snake and mouse...)</div>",unsafe_allow_html=True)
 
         st.markdown("<h3 style='text-align: left; color: black;'>New rules:</h3>", unsafe_allow_html=True)
         st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;1. Snake can touch his body</div>",unsafe_allow_html=True)
