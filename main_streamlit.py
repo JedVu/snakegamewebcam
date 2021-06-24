@@ -84,7 +84,8 @@ elif choice == 'Behind the scenes':
         st.markdown("<h3 style='text-align: center; color: black;'>Use MobileNetv2 to train model for 4 classes</h3>", unsafe_allow_html=True)
         st.markdown("<div align = 'center'>(Actually I used Xception first and the accuracy is better than MobileNetv2 but Xception is too heavy and maybe slow)</div>",unsafe_allow_html=True)
         st.image(r"media/mobilenetv2.png", use_column_width='always')
-
+        st.write("[Example about MobileNetv2 work](https://www.youtube.com/watch?v=SibMvEVpqsk)")
+        
         st.markdown("<h3 style='text-align: center; color: black;'>Evaluate model after training model</h3>", unsafe_allow_html=True)
         st.image(r"media/evaluate_model_after_train.png", use_column_width='always')
 
@@ -97,6 +98,7 @@ elif choice == 'Behind the scenes':
         st.markdown("<h3 style='text-align: center; color: black;'>SciKit Learn classification_report with full Test_set</h3>", unsafe_allow_html=True)
         st.image(r"media/classification_report.png", use_column_width='always')
         st.write("[Click to open my Colab file](https://colab.research.google.com/drive/1Xa4iggL5B9TAnaXB-oyhG2-kxx_SF18R?usp=sharing)")
+        
 
         st.markdown("<h2 style='text-align: center; color: black;'>Put PoseNet, Trained Model with MobileNetv2 and Snake Game<br>together</h2>", unsafe_allow_html=True)
         
