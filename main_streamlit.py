@@ -81,17 +81,18 @@ elif choice == 'Behind the scenes':
         st.markdown("<div align = 'center'>Should check carefully because they affect on the accuracy of model directly</div>",unsafe_allow_html=True)
         st.image(r"media/find_bug_manually.png", use_column_width='always')
 
+    st.markdown("<h2 style='text-align: center; color: black;'>Upload to Google Drive and use Colab Pro to train model</h2>", unsafe_allow_html=True)
     col6, col7 = st.beta_columns((1,1))
     with col6:
-        st.markdown("<h2 style='text-align: center; color: black;'>Upload to Google Drive and use Colab Pro to train model</h2>", unsafe_allow_html=True)
+        st.write(" ")
+        st.write(" ")
+        st.write(" ")
         st.markdown("<div align = 'center'>Randomly choice images as guideline 8.5a_Real_ML_Project_with_Tensorflow_Keras.ipynb <br> and split them to Train_set, Validation_set and Test_set</div>",unsafe_allow_html=True)
         st.image(r"media/data_for_colab_train_model.png", use_column_width='always')
     with col7:
-        st.write(" ")
-        st.write(" ")
-
         st.markdown("<h3 style='text-align: center; color: black;'>Use MobileNetv2 to train model for 4 classes</h3>", unsafe_allow_html=True)
         st.markdown("<div align = 'center'>(Actually I used Xception first and the accuracy is better than MobileNetv2 but Xception is too heavy and maybe slow)</div>",unsafe_allow_html=True)
+        st.write(" ")
         st.image(r"media/mobilenetv2.png", use_column_width='always')
         st.write("[Example about MobileNetv2 work](https://www.youtube.com/watch?v=SibMvEVpqsk)")    
 
@@ -120,7 +121,7 @@ elif choice == 'Behind the scenes':
     with col11:
         st.image(r"media/snake_head.png", use_column_width='always')
     with col12:
-        st.markdown("<h2 style='text-align: center; color: black;'>Put PoseNet, Trained Model with MobileNetv2 and Snake Game together</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 style='text-align: center; color: black;'>Put PoseNet, Trained Model with MobileNetv2 and Snake Game<br>together</h2>", unsafe_allow_html=True)
         
         st.markdown("<div align = 'left'>Snake game, I learned how to create it from a course of Udemy</div>",unsafe_allow_html=True)
         st.markdown("<div align = 'left'>But... It's really hard to play if combine with body gesture</div>",unsafe_allow_html=True)
@@ -150,7 +151,7 @@ elif choice == 'Behind the scenes':
 
         st.markdown("<h2 style='text-align: center; color: black;'>Future work</h2>", unsafe_allow_html=True)
         st.markdown("<div align = 'left'>I love to play games although I'm not too young. So I have not be satisfied my snake<br>I need to think how to improve my snake</div>",unsafe_allow_html=True)
-        st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;1. Find another model to decrease 'lost pose' (maybe media pose) or try to use 'slower' posenet</div>",unsafe_allow_html=True)
+        st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;1. Find another model to decrease 'lost pose' (maybe media pose) or try again to use 'slower' posenet</div>",unsafe_allow_html=True)
         st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;2. Improve my code to keep the prediction more stable</div>",unsafe_allow_html=True)
         st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;3. Find a way to host my app to web</div>",unsafe_allow_html=True)
     with col13:
