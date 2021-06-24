@@ -106,7 +106,7 @@ elif choice == 'Behind the scenes':
         st.image(r"media/right_lost_pose.png", use_column_width='always')
 
         st.markdown("<h2 style='text-align: center; color: black;'>Future work</h1>", unsafe_allow_html=True)
-        st.markdown("<div align = 'left'>I love to play games although I'm not too young. So I have not be satisfied my snake<br>I need to think how to improve my current snake</div>",unsafe_allow_html=True)
+        st.markdown("<div align = 'left'>I love to play games although I'm not too young. So I have not be satisfied my current snake<br>I need to think how to improve my snake</div>",unsafe_allow_html=True)
         st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;1. Find another model to decrease 'lost pose'</div>",unsafe_allow_html=True)
         st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;2. Improve my code to keep the prediction more stable</div>",unsafe_allow_html=True)
         st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;3. Find a way to host my app to web</div>",unsafe_allow_html=True)
