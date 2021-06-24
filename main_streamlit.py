@@ -134,7 +134,7 @@ elif choice == 'Behind the scenes':
 
 elif choice == 'Live demo':
     st.markdown("<h1 style='text-align: center; color: black;'>Under contruction...</h1>", unsafe_allow_html=True)
-    st.markdown("<div align = 'center'>Maybe pygame can not host on streamlit, I will find another host to host my game</div>",unsafe_allow_html=True)
+    st.markdown("<div align = 'center'>Maybe pygame can not host on streamlit, I will find a way to host my game</div>",unsafe_allow_html=True)
     st.markdown("<h2 style='text-align: center; color: black;'>Source code in my github</h2>", unsafe_allow_html=True)
     st.markdown("<h4 style='text-align: center; color: black;'>https://github.com/JedVu/snakegamewebcam</h4>", unsafe_allow_html=True)
 
