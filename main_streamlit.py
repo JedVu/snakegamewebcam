@@ -94,7 +94,7 @@ elif choice == 'Behind the scenes':
         st.markdown("<div align = 'center'>(Actually I used Xception first and the accuracy is better than MobileNetv2 but Xception is too heavy and maybe slow)</div>",unsafe_allow_html=True)
         st.write(" ")
         st.image(r"media/mobilenetv2.png", use_column_width='always')
-        st.write("[Example How MobileNetv2 work](https://www.youtube.com/watch?v=SibMvEVpqsk)")    
+        st.write("[Example about MobileNetv2 work](https://www.youtube.com/watch?v=SibMvEVpqsk)")    
 
     col14, col15 = st.beta_columns((1,1))
     with col14:
@@ -148,11 +148,16 @@ elif choice == 'Behind the scenes':
                         </p>
                     </div>""",unsafe_allow_html=True)
         st.image(r"media/right_lost_pose.png", use_column_width='always')
+        st.markdown("<div align = 'center'>Actually I can extract corrdination of Posenet to get the corr position of wrist...</div>",unsafe_allow_html=True)
+        st.write(" ")
+        st.image(r"media/corr.png", use_column_width='auto')
+
+
 
         st.markdown("<h2 style='text-align: center; color: black;'>Future work</h2>", unsafe_allow_html=True)
         st.markdown("<div align = 'left'>I love to play games although I'm not too young. So I have not be satisfied my snake<br>I need to think how to improve my snake</div>",unsafe_allow_html=True)
         st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;1. Find another model to decrease 'lost pose' (maybe media pose) or try again to use 'slower' posenet</div>",unsafe_allow_html=True)
-        st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;2. Improve my code to keep the prediction more stable</div>",unsafe_allow_html=True)
+        st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;2. Improve my code to keep the prediction more stable (use corrdination of wrist)</div>",unsafe_allow_html=True)
         st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;3. Find a way to host my app to web</div>",unsafe_allow_html=True)
     with col13:
         st.image(r"media/snake_head.png", use_column_width='always')
