@@ -94,7 +94,7 @@ elif choice == 'Behind the scenes':
         st.markdown("<div align = 'center'>(Actually I used Xception first and the accuracy is better than MobileNetv2 but Xception is too heavy and maybe slow)</div>",unsafe_allow_html=True)
         st.write(" ")
         st.image(r"media/mobilenetv2.png", use_column_width='always')
-        st.write("[Example about MobileNetv2 work](https://www.youtube.com/watch?v=SibMvEVpqsk)")    
+        st.write("[Example How MobileNetv2 work](https://www.youtube.com/watch?v=SibMvEVpqsk)")    
 
     col14, col15 = st.beta_columns((1,1))
     with col14:
