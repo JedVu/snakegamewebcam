@@ -119,6 +119,7 @@ elif choice == 'Behind the scenes':
         st.markdown("""<div align = 'left'>
                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Although the scores are very good, but my model detect pose depends on PoseNet skeleton and the light position of room.
                         If the brightness of the body right side is better than the left, the skeleton pose will be easy to loss the body left side and make the wrong prediction.
+                        The other reason is: I used Posenet fast detection mode because the game needed.
                         </p>
                     </div>""",unsafe_allow_html=True)
         st.image(r"media/right_lost_pose.png", use_column_width='always')
