@@ -1,5 +1,4 @@
 import streamlit as st
-import cv2
 
 st.set_page_config(
     layout="wide"
@@ -173,16 +172,7 @@ elif choice == 'Live demo':
     with col1:
         pass
     with col2:
-        run = st.checkbox('Run')
-        FRAMEWINDOW = st.image([])
-        camera = cv2.VideoCapture(0)
-        while run:
-            _ , frame = camera.read()
-            frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-            FRAMEWINDOW.image(frame)
-        else:
-            st.write('Stopped')
-
+        pass
     with col3:
         pass
     
