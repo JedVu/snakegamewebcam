@@ -88,8 +88,8 @@ elif choice == 'Behind the scenes':
         st.markdown("<h3 style='text-align: center; color: black;'>Evaluate model after training model</h3>", unsafe_allow_html=True)
         st.image(r"media/evaluate_model_after_train.png", use_column_width='always')
 
-        st.markdown("<h3 style='text-align: center; color: black;'>Visualization accuracy and loss</h3>", unsafe_allow_html=True)
-        st.image(r"media/visualization_accuracy.png", use_column_width='always')
+#         st.markdown("<h3 style='text-align: center; color: black;'>Visualization accuracy and loss</h3>", unsafe_allow_html=True)
+#         st.image(r"media/visualization_accuracy.png", use_column_width='always')
 
         st.markdown("<h3 style='text-align: center; color: black;'>Visualization test with Test_set</h3>", unsafe_allow_html=True)
         st.image(r"media/test_test_set.png", use_column_width='always')
