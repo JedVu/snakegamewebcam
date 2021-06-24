@@ -56,7 +56,7 @@ elif choice == 'Behind the scenes':
     col1, col2, col3 = st.beta_columns((1,2,1))
 
     with col1:
-        st.image(r"media\CDS_logo.jpg", use_column_width='always')
+        st.image(r"media/CDS_logo.jpg", use_column_width='always')
         
     with col2:
         st.markdown("<h2 style='text-align: center; color: black;'>Process flow</h2>", unsafe_allow_html=True)
@@ -129,7 +129,7 @@ elif choice == 'Behind the scenes':
         
 
     with col3:
-        st.image(r"media\CDS_logo_flip.jpg", use_column_width='always')
+        st.image(r"media/CDS_logo_flip.jpg", use_column_width='always')
         
 
 elif choice == 'Live demo':
