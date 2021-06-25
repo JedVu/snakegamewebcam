@@ -148,19 +148,42 @@ elif choice == 'Behind the scenes':
                         </p>
                     </div>""",unsafe_allow_html=True)
         st.image(r"media/right_lost_pose.png", use_column_width='always')
-        st.markdown("<div align = 'center'>Actually I can extract corrdination of Posenet to get the corr position of wrist...</div>",unsafe_allow_html=True)
+
+    with col13:
+        st.image(r"media/snake_head.png", use_column_width='always')
+
+
+
+    st.markdown("<div align = 'center'>Actually I can extract corrdination of Posenet to get the corr position of wrist BUT...</div>",unsafe_allow_html=True)
+    col18, col19 = st.beta_columns((1, 1))
+    with col18:
         st.write(" ")
-        st.image(r"media/corr.png", use_column_width='auto')
+        st.write(" ")
+        st.write(" ")
+        st.write(" ")
+        st.write(" ")
+        st.write(" ")
+        st.write(" ")
+        st.write(" ")
+        st.write(" ")
+        st.write(" ")
+        
+        st.image(r"media/corr.png", use_column_width='always')
+    with col19:
+        st.write(" ")
+        st.image(r"media/Left_Right_corrdination.png", use_column_width='always')
 
-
-
+    col20, col21, col22= st.beta_columns((1,3, 1))
+    with col20:
+        pass
+    with col21:
         st.markdown("<h2 style='text-align: center; color: black;'>Future work</h2>", unsafe_allow_html=True)
         st.markdown("<div align = 'left'>I love to play games although I'm not too young. So I have not be satisfied my snake<br>I need to think how to improve my snake</div>",unsafe_allow_html=True)
         st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;1. Find another model to decrease 'lost pose' (maybe media pose) or try again to use 'slower' posenet</div>",unsafe_allow_html=True)
         st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;2. Improve my code to keep the prediction more stable (use corrdination of wrist)</div>",unsafe_allow_html=True)
         st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;3. Find a way to host my app to web</div>",unsafe_allow_html=True)
-    with col13:
-        st.image(r"media/snake_head.png", use_column_width='always')
+    with col22:
+        pass
 
         
 elif choice == 'Live demo':
