@@ -143,7 +143,7 @@ elif choice == 'Behind the scenes':
 
         st.markdown("<h2 style='text-align: center; color: black;'>Weak points</h2>", unsafe_allow_html=True)
         st.markdown("""<div align = 'left'>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Although the scores are very good, but my model detect pose depends on PoseNet skeleton and the light position of room.
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Although the train scores are good, but my model detect pose depends on PoseNet skeleton and the light position of room.
                         If the brightness of the body right side is better than the left, the skeleton pose will be easy to loss the body left side and make the wrong prediction.
                         </p>
                     </div>""",unsafe_allow_html=True)
