@@ -154,7 +154,8 @@ elif choice == 'Behind the scenes':
 
 
 
-    st.markdown("<div align = 'center'>Actually I can extract corrdination of Posenet to get the corr position of wrist BUT...</div>",unsafe_allow_html=True)
+    st.markdown("<div align = 'center'>Actually I can extract corrdination of Posenet to get the corr position of wrist BUT if I do that, I won't train anything.</div>",unsafe_allow_html=True)
+    st.markdown("<div align = 'center'>I'm learning MLE, so I need train and I collected pose myself</div>",unsafe_allow_html=True)
     col18, col19 = st.beta_columns((1, 1))
     with col18:
         st.write(" ")
