@@ -125,7 +125,7 @@ elif choice == 'Behind the scenes':
         
         st.markdown("<div align = 'left'>Snake game, I learned how to create it from a course of Udemy</div>",unsafe_allow_html=True)
         st.markdown("<div align = 'left'>But... It's really hard to play if combine with body gesture</div>",unsafe_allow_html=True)
-        st.markdown("<div align = 'left'>So... I had to re-design all play rules and layout also (slower speed, bigger snake and mouse)</div>",unsafe_allow_html=True)
+        st.markdown("<div align = 'left'>So... I had to re-design all play rules and layout also (slower speed, bigger snake and mouse...)</div>",unsafe_allow_html=True)
 
         st.markdown("<h3 style='text-align: left; color: black;'>New rules:</h3>", unsafe_allow_html=True)
         st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;1. Snake can touch his body</div>",unsafe_allow_html=True)
@@ -173,9 +173,9 @@ elif choice == 'Behind the scenes':
         st.write(" ")
         st.image(r"media/Left_Right_corrdination.png", use_column_width='always')
 
-    col20, col21, col22= st.beta_columns((1,3, 1))
+    col20, col21, col22= st.beta_columns((1,2, 1))
     with col20:
-        pass
+        st.image(r"media/light.png", use_column_width='always')
     with col21:
         st.markdown("<h2 style='text-align: center; color: black;'>Future work</h2>", unsafe_allow_html=True)
         st.markdown("<div align = 'left'>I love to play games although I'm not too young. So I have not be satisfied my snake<br>I need to think how to improve my snake</div>",unsafe_allow_html=True)
@@ -183,7 +183,7 @@ elif choice == 'Behind the scenes':
         st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;2. Improve my code to keep the prediction more stable (use corrdination of wrist)</div>",unsafe_allow_html=True)
         st.markdown("<div align = 'left'>&nbsp;&nbsp;&nbsp;3. Find a way to host my app to web</div>",unsafe_allow_html=True)
     with col22:
-        pass
+        st.image(r"media/light.png", use_column_width='always')
 
         
 elif choice == 'Live demo':
