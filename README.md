@@ -2,9 +2,9 @@
 *** This project, I don't want to use the corrdinates of PoseNet to get corr of Left/Right Wrist. I trained the skeleton pose to make the project a bit harder.
 
 ## Snake game with Body gesture
-    Detail product: https://share.streamlit.io/jedvu/snakegamewebcam/main/main_streamlit.py
-    Youtube: https://www.youtube.com/watch?v=PYaNoSkl5GE
-
+    Detail product: [streamlit.io](https://share.streamlit.io/jedvu/snakegamewebcam/main/main_streamlit.py)
+    Youtube: [Youtube](https://www.youtube.com/watch?v=PYaNoSkl5GE)
+    
 ## Guildline to install this repo
 1. pip install library needed
 
