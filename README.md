@@ -1,4 +1,6 @@
 # snakegamewebcam
+*** Because I'm learning Machine Learning, so I don't want to use the corrdinates of PoseNet to get corr of Left/Right Wrist.
+
 ## Snake game with Body gesture
     Detail product: https://share.streamlit.io/jedvu/snakegamewebcam/main/main_streamlit.py
     Youtube: https://www.youtube.com/watch?v=PYaNoSkl5GE
