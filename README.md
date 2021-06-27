@@ -18,13 +18,13 @@ This project, I don't want to use the corrdinates of PoseNet to get corr of Left
 
 4. Extracted posenet model (in case you can not download posenet to your PC)
 
-    Copy _model folder to your root app folder
+    copy _model folder to your root app folder
 
     https://drive.google.com/file/d/1nXaHY2I0ydlN7NMMGt1x90grqnVcEBQi/view?usp=sharing
 
 5. Edit link to predict model (if needed)
 
-6. run main.py
+6. Run main.py
 
 
 
